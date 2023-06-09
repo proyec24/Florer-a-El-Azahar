@@ -1,0 +1,176 @@
+/* Barra de navegación */
+nav 
+{
+  /* Color de la barra */
+  background-color: lightcoral; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+nav a 
+{
+  /* Color de las letras */
+  color: white; 
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+nav a:hover 
+{
+  text-decoration: underline;
+}
+
+footer 
+{
+  /* Color del footer */
+  background-color: lightcoral; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+footer a 
+{
+  margin: 0 1rem;
+}
+
+footer img 
+{
+  height: 2rem;
+  width: 2rem;
+}
+
+body 
+{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+main 
+{
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 
+{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Estilo de los contenedores */
+.contenedor {
+  align-content: center;
+  width: 100%;
+    max-width: 1200px;
+    height: 30em auto;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+    
+}
+
+.contenedor .arreglo
+{
+  width: 20em;
+    height: 200px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1em;
+    text-align: center;
+    background-color:  white;
+}
+
+.contenedor .caja
+{
+  width: 20em;
+    height: 25em auto;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1em;
+    text-align: center;
+    background-color:  white;
+}
+
+.contenedor .ramo
+{
+  width: 20em;
+    height: 25em auto;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 1em;
+    text-align: center;
+    background-color:  white;
+}
+
+.contenedor .arreglo:hover
+{
+  background-color: lightcoral;
+}
+
+.contenedor .caja:hover
+{
+  background-color: lightcoral;
+}
+
+.contenedor .ramo:hover
+{
+  background-color: lightcoral;
+}
+
+.producto h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.contenedor .producto {
+  width: 600px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.contenedor .arreglo img
+{
+  width: 18em;
+    height: 16em;
+}
+
+.contenedor .caja img
+{
+  width: 18em;
+    height: 16em;
+}
+
+.contenedor .ramo img
+{
+  width: 18em;
+    height: 16em;
+}
+
+button 
+{
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Según YT esto hace responsivo xd*/
+@media only screen and (max-width: 600px) {
+  nav a, .dropdown {
+      float: none;
+      display: block;
+      text-align: left;
+  }
+}

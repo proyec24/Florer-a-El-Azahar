@@ -1,0 +1,63 @@
+/* Barra de navegación */
+nav 
+{
+  /* Color de la barra */
+  background-color: lightcoral; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+nav a 
+{
+  /* Color de las letras */
+  color: white; 
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+nav a:hover 
+{
+  text-decoration: underline;
+}
+
+footer 
+{
+  /* Color del footer */
+  background-color: lightcoral; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+footer a 
+{
+  margin: 0 1rem;
+}
+
+footer img 
+{
+  height: 2rem;
+  width: 2rem;
+}
+
+body 
+{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+main 
+{
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 
+{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
